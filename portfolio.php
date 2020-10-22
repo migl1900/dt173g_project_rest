@@ -10,7 +10,7 @@ include("includes/config.php");
 
 // Headers to allow methods and access
 header("Content-Type: application/json");
-header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Origin: https://webicon.se");
 header("Access-Control-Allow-Methods: GET, PUT, POST, DELETE");
 header("Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, X-Request-With");
 

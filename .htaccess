@@ -1,9 +1,0 @@
-# Turn of intrucion filtering at web hotel
-<IfModule security2_module>
-    SecRuleRemoveByTag unoeuro
-</IfModule>
-
-AuthUserFile /var/www/webicon.se/public_html/tweug/dt173g/projekt/rest/.htpasswd
-AuthType Basic
-AuthName "My restricted Area"
-Require valid-user

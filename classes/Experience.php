@@ -2,10 +2,6 @@
 
 // Class methods handling REST CRUD for application
 class Experience extends DbConnect {
-    protected $header;
-    protected $position;
-    protected $year;
-    protected $description;
     
     function getAllJobs() {
         $sql = "SELECT * FROM dt173g_project_experience ORDER BY id DESC";

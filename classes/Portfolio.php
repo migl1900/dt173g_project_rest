@@ -2,11 +2,6 @@
 
 // Class methods handling REST CRUD for application
 class Portfolio extends DbConnect {
-    protected $header;
-    protected $description;
-    protected $link;
-    protected $image;
-    protected $alt;
     
     function getAllReferences() {
         $sql = "SELECT * FROM dt173g_project_portfolio ORDER BY id DESC";

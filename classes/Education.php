@@ -2,10 +2,6 @@
 
 // Class methods handling REST CRUD for application
 class Education extends DbConnect {
-    protected $course;
-    protected $year;
-    protected $school;
-    protected $description;
     
     function getAllCourses() {
         $sql = "SELECT * FROM dt173g_project_education ORDER BY id DESC";
